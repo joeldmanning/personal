@@ -7,9 +7,13 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Custom Styles 
 *
 * ======================================================= */
+
+.no-pointer {
+	cursor: text;
+}
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
