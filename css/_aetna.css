@@ -1,29 +1,4 @@
-.item {
-  background: white;
-  text-align: center;
-  height: 300px !important;
+.aetna-bg {
+  background: url('../images/image-modals/aetna-slide-2.png') no-repeat;
+  background-size: cover;
 }
-
-.carousel {
-  margin-top: 20px;
-  width: 50%;
-  height: 500px;
-}
-
-.bs-flip {
-  margin: 20px;
-}
-
-.carousel.carousel-fade .item {
-  opacity: 0;
-  filter: alpha(opacity=0);
-  /* ie fix */
-}
-
-.carousel.carousel-fade .active.item {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  /* ie fix */
-}
-.carousel-inner {
-  height:400px;

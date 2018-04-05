@@ -31,60 +31,51 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet"
 	      href="css/style.css">
+				<link rel="stylesheet"
+							href="css/_aetna.css">
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-
-	<meta charset="UTF-8">
-	<title>Example of Twitter Bootstrap 3 Carousel</title>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 	<link rel="stylesheet"
-	      href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+				href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 	<link rel="stylesheet"
-	      href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+				href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
 	<script type="text/javascript"
-	        src="https://code.jquery.com/jquery.min.js"></script>
+					src="https://code.jquery.com/jquery.min.js"></script>
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-
-	<div class="fh5co-loader"></div>
-	<div class="container">
-		<div class="row row-pb-md">
-			<h2>Aetna</h2>
-			<div class="col-md-4 text-left fh5co-heading  animate-box">
-
-
-				<div class="bs-flip">
-					<div id="myCarousel"
-					     class="carousel slide"
-					     data-interval="6500"
-					     data-ride="carousel">
-						<!-- Carousel indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#myCarousel"
-							    data-slide-to="0"
-							    class="active"></li>
-							<li data-target="#myCarousel"
-							    data-slide-to="1"></li>
-							<li data-target="#myCarousel"
-							    data-slide-to="2"></li>
-						</ol>
-						<!-- Carousel items -->
-						<div class="carousel-inner">
-							<div class="active item carousel-fade">
-								<img src="images/image-modals/aetna-slide-1.png">
-								<div class="carousel-caption">
-									<!--empty content-->
+				<body>
+					<div class="bs-flip">
+						<div id="myCarousel"
+						     class="carousel slide"
+						     data-interval="6500"
+						     data-ride="carousel">
+							<!-- Carousel indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel"
+								    data-slide-to="0"
+								    class="active"></li>
+								<li data-target="#myCarousel"
+								    data-slide-to="1"></li>
+								<li data-target="#myCarousel"
+								    data-slide-to="2"></li>
+							</ol>
+							<!-- Carousel items -->
+							<div class="carousel-inner">
+								<div class="active item carousel-fade">
+									<img src="images/image-modals/aetna-slide-1.png">
+									<div class="carousel-caption">
+										<!--empty content-->
+									</div>
 								</div>
-							</div>
-							<div class="item carousel-fade">
-								<a href="images/image-modals/aetna-wire-expand.png">
-								<img src="images/image-modals/aetna-slide-2.jpg">
-									</a>
+								<div class="item carousel-fade aetna-bg">
+										<a href="images/image-modals/aetna-wire-expand.png">	<img src="images/image-modals/aetna-slide-2.jpg" data-toggle="tooltip" data-placement="top" data-original-title="this is a left tooltip"></a>
 								</div>
-							</div>
-
-							<!-- <div class="item carousel-fade">
+								<!-- <div class="item carousel-fade">
 									<h2>Slide 3</h2>
 									<div class="carousel-caption">
 										<h3>Third slide label</h3>
@@ -105,9 +96,6 @@
 				        </a>
 						</div>
 					</div>
-</body>
-
-</html>
 </div>
 </div>
 </div>
