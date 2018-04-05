@@ -1,0 +1,21 @@
+.sentinel-bg {
+  background-size: cover;
+  background: url('../images/image-modals/sentinel-slide-1.png') no-repeat;
+}
+
+.sentinel-text-body {
+  font-size: 1em;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.4);
+  color: #444;
+  margin: 50px;
+}
+
+.sentinel-header {
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #444;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;

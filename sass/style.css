@@ -1,5 +1,6 @@
 @import url(_aetna.css);
 @import url(_apple.css);
+@import url(_sentinel.css);
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
