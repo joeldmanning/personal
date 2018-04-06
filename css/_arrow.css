@@ -1,0 +1,16 @@
+.apple-slide-div {
+    position: absolute; top:0; left: 0 !important;
+    background: url('../images/image-modals/arrow-slide-2.png') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/*slider container*/
+.slider-container {
+	margin: 0px;
+	height: 510px;
+}
+
+.slider-text-container {
+  margin: 0px 200px 25px 25px;
+}

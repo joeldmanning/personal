@@ -1,0 +1,14 @@
+.apple-slide-div {
+    background: url('../images/image-modals/arrow-slide-2.png') no-repeat;
+    background-size: cover;
+}
+
+/*slider container*/
+.slider-container {
+	margin: 0px;
+	height: 510px;
+}
+
+.slider-text-container {
+  margin: 0px 200px 25px 25px;
+}
