@@ -37,7 +37,6 @@
       <!-- <div class="top-floating-bar"> -->
       <ul class="social-intro list-unstyled list-inline">
         <li><a href="#" class="icn-dribbble"><i class="fa fa-dribbble"></i></a></li>
-        <li><a href="#" class="icn-g-plus"><i class="fa fa-google-plus"></i></a></li>
         <li><a href="#" class="icn-github"><i class="fa fa-github-alt"></i></a></li>
       </ul>
     </div>
@@ -341,11 +340,7 @@
                       standards
                       of a quality/professional web application is unfortunately
                       seldom seen in the modern technology company environment.</p>
-                    <ul class="social list-unstyled list-inline">
-                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
+
                   </div> <!-- /.col-md-6 -->
 
                   <div class="col-md-6">
@@ -421,73 +416,79 @@
 
               <header>
                 <h2>Contact</h2>
-                <p>I have traced the Rebel spies to her. Now she is my only link
-                  to finding their secret base. You don't believe in the Force,
-                  do
-                  you?</p>
               </header>
 
               <div class="row row-centered">
 
                 <div class="col-md-8 col-sm-12 col-centered">
+                  <form action="https://formspree.io/joeldmanning@gmail.com"
+                    method="POST">
+                    <div class="row form-group">
+                      <div class="col-md-6">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" class="form-control"
+                          placeholder="Your firstname">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" class="form-control"
+                          placeholder="Your lastname">
+                      </div>
+                    </div>
 
+                    <div class="row form-group">
+                      <div class="col-md-12">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" class="form-control"
+                          placeholder="Your email address">
+                      </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <div class="col-md-12">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-control"
+                          placeholder="Your subject of this message">
+                      </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <div class="col-md-12">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="5"
+                          class="form-control" placeholder="Your message"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input name="submit" type="submit" value="Send!"
+                        class="btn btn-lg btn-primary">
+                    </div>
+
+                  </form>
+                  <!-- 
                   <ul class="contact-info list-unstyled list-inline">
                     <li>
                       <div class="content">
                         <i class="fa fa-home"></i>
                         <p>767 Fifth Ave.<br />
                           New York, NY 10153</p>
-                      </div> <!-- /.content -->
+                      </div> 
                     </li>
 
                     <li>
                       <div class="content">
                         <i class="fa fa-phone"></i>
                         <p>+123 456 789</p>
-                      </div> <!-- /.content -->
+                      </div> 
                     </li>
 
                     <li>
                       <div class="content">
                         <i class="fa fa-envelope-o"></i>
                         <p>your@example.com</p>
-                      </div> <!-- /.content -->
+                      </div> 
                     </li>
-                  </ul>
-
-
-                  <form role="form" id="contactForm" data-toggle="validator"
-                    class="shake">
-
-                    <div class="form-group">
-                      <label for="name">Name</label>
-                      <input type="text" class="form-control" id="name"
-                        placeholder="Enter name" required data-error="NEW ERROR
-                        MESSAGE">
-                      <div class="help-block with-errors"></div>
-                    </div>
-
-                    <div class="form-group">
-                      <label for="email">Email</label>
-                      <input type="email" class="form-control" id="email"
-                        placeholder="Enter email" required>
-                      <div class="help-block with-errors"></div>
-                    </div>
-
-                    <div class="form-group">
-                      <label for="message">Message</label>
-                      <textarea id="message" class="form-control" rows="5"
-                        placeholder="Enter your message" required></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-
-                    <button type="submit" id="form-submit" class="btn
-                      btn-default
-                      btn-white">Submit</button>
-                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                    <div class="clearfix"></div>
-                  </form>
-
+                  </ul> -->
                 </div> <!-- /.col-md-8 -->
 
               </div> <!-- /.row -->
