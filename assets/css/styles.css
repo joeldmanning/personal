@@ -28,7 +28,14 @@
  01. Typography
 ******************************/
 
-body, p, a, h1, h2, h3, h4, h5 {
+body,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Open Sans', sans-serif;
   color: #2c2c2c;
 }
@@ -99,6 +106,7 @@ body {
   margin: 0;
 
 }
+
 section {
   position: relative;
   z-index: 2;
@@ -287,7 +295,8 @@ div.parallax-mirror {
   transform-style: preserve-3d;
 }
 
-#intro h1, #intro p {
+#intro h1,
+#intro p {
   color: #fff;
 }
 
@@ -315,7 +324,7 @@ div.parallax-mirror {
 
 ul.social-intro {
   margin: 5px 0 0 0;
-    /* margin: 10px;  */
+  /* margin: 10px;  */
 }
 
 ul.social-intro a {
@@ -459,7 +468,7 @@ a.icn-github {
   text-align: center;
 }
 
-.nav > li > a {
+.nav>li>a {
   color: #2c2c2c;
   font-size: 13px;
   font-weight: 600;
@@ -649,13 +658,16 @@ p.project-side-title {
 ******************************/
 
 #services {
-  background-color: #333435;
-  padding-bottom: 110px !important;
+  /* background-color: #333435; */
+  padding-bottom: 80px !important;
 }
 
-#services h2, #services h4, #services p, #services i {
+/* #services h2,
+#services h4,
+#services p,
+#services i {
   color: #fff;
-}
+} */
 
 #services header h2::after {
   background-color: #c0bdbd;
@@ -708,7 +720,7 @@ p.project-side-title {
 }
 
 .pricing-table p,
-  .pricing-table li {
+.pricing-table li {
   color: #2c2c2c;
 }
 
@@ -762,7 +774,8 @@ p.pt-per {
   background-color: #333435;
 }
 
-.pt-3 p, .pt-3 li {
+.pt-3 p,
+.pt-3 li {
   color: #fff;
 }
 
@@ -1072,7 +1085,9 @@ a.comment-reply-link {
   padding-bottom: 0 !important;
 }
 
-#contact p, #contact h2, #contact h5 {
+#contact p,
+#contact h2,
+#contact h5 {
   color: #fff;
 }
 
@@ -1156,7 +1171,8 @@ a.comment-reply-link {
   width: 100%;
 }
 
-.gm-style-iw h4, .gm-style-iw p {
+.gm-style-iw h4,
+.gm-style-iw p {
   margin: 0;
   padding: 0;
 }
@@ -1234,7 +1250,7 @@ p.copyright {
 ******************************/
 
 @media only screen and (max-width: 1200px) {
-  .nav > li > a {
+  .nav>li>a {
     padding: 15px 30px;
   }
 
@@ -1470,4 +1486,8 @@ p.copyright {
   .intro-1 h1 {
     margin-top: 0;
   }
+}
+
+.services-icon {
+  color: #EF5350 !important.
 }

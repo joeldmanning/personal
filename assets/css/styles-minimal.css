@@ -27,7 +27,8 @@ a {
   background-size: cover;
 }
 
-#intro h1, #intro p {
+#intro h1,
+#intro p {
   color: #2c2c2c;
 }
 
@@ -43,17 +44,46 @@ nav.navbar {
   background: #fff;
 }
 
-#services p, #services h2, #services h4, #services h5, #services label,
-  #contact p,
-  #contact h2,
-  #contact h4,
-  #contact h5,
-  #contact label {
+#services p,
+#services h2,
+#services h4,
+#services h5,
+#services label,
+#contact p,
+#contact h2,
+#contact h4,
+#contact h5,
+#contact label {
   color: #2c2c2c;
 }
 
 #services i {
-  color: #2c2c2c;
+  /* color: #2c2c2c; */
+}
+
+.col-sm-3 .fa-diamond,
+.design-coat {
+  color: #EF5350 !important;
+}
+
+.design-sub {
+  color: #C62828 !important;
+}
+
+.col-sm-3 .fa-snowflake-o,
+.architecture-coat {
+  color: #FFA726 !important;
+}
+
+.architecture-coat {
+  color: #EF6C00 !important;
+}
+.col-sm-3 .fa-sitemap,.creative-coat {
+  color: #9CCC65 !important;
+}
+
+.creative-coat {
+  color: #558B2F !important;
 }
 
 .pricing-table {
@@ -64,7 +94,7 @@ nav.navbar {
 }
 
 .pricing-table p,
-  .pricing-table li {
+.pricing-table li {
   color: #2c2c2c;
 }
 

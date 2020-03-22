@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['submit'])) {
 $to = "joeldmanning@gmail.com";
-$subject = "What are you thinking submission!";
+$subject = "Thank you.";
  
 // data the visitor provided
 $name_field = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
