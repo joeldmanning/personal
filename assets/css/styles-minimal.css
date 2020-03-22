@@ -78,6 +78,7 @@ nav.navbar {
 .architecture-coat {
   color: #EF6C00 !important;
 }
+
 .col-sm-3 .fa-sitemap,.creative-coat {
   color: #9CCC65 !important;
 }
@@ -85,6 +86,15 @@ nav.navbar {
 .creative-coat {
   color: #558B2F !important;
 }
+
+.col-sm-3 .fa-rocket,.dev-coat {
+  color: #26C6DA !important;
+}
+
+.dev-coat {
+  color: #00838F !important;
+}
+
 
 .pricing-table {
   background-color: #fff;
