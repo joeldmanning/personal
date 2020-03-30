@@ -250,7 +250,7 @@ p.tagline {
 .separator {
   text-align: center;
   position: relative;
-  height: 150px;
+  height: 750px;
   background-size: cover;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -673,6 +673,11 @@ p.project-side-title {
   background-color: #c0bdbd;
 }
 
+.sketch::before {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
 
 .services-list {
   text-align: center;
@@ -811,8 +816,7 @@ p.pt-per {
 }
 
 .goals {
-  /* margin-bottom: 100px; */
-  margin-bottom: 20em;
+  margin-bottom: 100px;
   line-height: 2;
 }
 
@@ -1490,10 +1494,6 @@ p.copyright {
   }
 }
 
-.design-icon {
-  color: #EF5350 !important;
-}
-
-.development-icon {
-  color:#0277BD !important;
+.services-icon {
+  color: #EF5350 !important.
 }
