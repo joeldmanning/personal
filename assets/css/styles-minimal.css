@@ -70,16 +70,19 @@ nav.navbar {
   color: #C62828 !important;
 }
 
-.col-sm-3 .fa-snowflake-o,
-.architecture-coat {
-  color: #FFA726 !important;
+.col-sm-3 .fa-code,
+.code-coat {
+
+  color: #F9A825 !important;
 }
 
-.architecture-coat {
-  color: #EF6C00 !important;
+
+.code-coat {
+  color: #F57F17 !important;
 }
 
-.col-sm-3 .fa-sitemap,.creative-coat {
+.col-sm-3 .fa-sitemap,
+.creative-coat {
   color: #9CCC65 !important;
 }
 
@@ -87,12 +90,13 @@ nav.navbar {
   color: #558B2F !important;
 }
 
-.col-sm-3 .fa-rocket,.dev-coat {
+.col-sm-3 .fa-rocket,
+.dev-coat {
   color: #26C6DA !important;
 }
 
 .dev-coat {
-  color: #00838F !important;
+  color: #546E7A !important;
 }
 
 
