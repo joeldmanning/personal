@@ -673,6 +673,12 @@ p.project-side-title {
   background-color: #c0bdbd;
 }
 
+.sketch::before {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
 .services-list {
   text-align: center;
   margin-top: 150px;
